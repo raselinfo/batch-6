@@ -1,0 +1,21 @@
+/* body{
+    color:red;
+}
+
+button{
+    color:inherit;
+}
+input{
+    color: inherit;
+} */
+
+.parent{
+    color:red;
+    font-family:sans-serif;
+    font-size:30px;
+}
+input,button{
+    color:inherit;
+    font-family: inherit;
+    font-size: inherit;
+}

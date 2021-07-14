@@ -1,0 +1,23 @@
+body{
+    /* background:url("./img//star.png"),url("./img/1.jpg"); */
+   background-repeat: no-repeat;
+   background-size:200px,cover;
+   /* background-position: 100% 100%,0% 0%; */
+   background-position: center right,0% 0%;
+}
+.box{
+    width:500px;
+    height:400px;
+    background:url("./img/1.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin:100px auto;
+    border:1px solid black;
+    border-radius: 10px;
+    /* background-repeat:space; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+}
+.box h3{
+    font-size:60px;
+}

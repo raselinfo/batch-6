@@ -1,0 +1,27 @@
+body{
+    background: rgb(104, 34, 195);
+background: linear-gradient(214deg, rgba(104, 34, 195, 0.9920343137254902) 0%, rgba(101, 253, 45, 0.9500175070028011) 100%);
+}
+.box{
+    width:100px;
+    height:100px;
+    background: linear-gradient(#812BE8,#560DAB);
+    border-radius: 50%;
+    display: inline-block;
+}
+.container{
+    width:500px;
+    margin:400px auto;
+}
+.box:nth-child(2){
+    background:linear-gradient(#AC89F6,#7F16FE)
+}
+.box:nth-child(3){
+    background:linear-gradient(#6AD6FF,#AD6AFE)
+}.box:nth-child(4){
+    background:linear-gradient(#12F5EF,#C68EFE)
+}.box:nth-child(5){
+    background:linear-gradient(#A82D8E,#412A71)
+}.box:nth-child(6){
+    background:linear-gradient(#F354A6,#8815F6)
+}

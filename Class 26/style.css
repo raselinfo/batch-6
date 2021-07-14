@@ -1,0 +1,28 @@
+body{
+    background:url("./img/1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    
+}
+.box{
+    width:500px;
+    height:400px;
+    background:url("./img/2.jpg");
+    /* background:red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:100px auto;
+    padding:45px;
+    border:30px dotted yellow;
+    /* background-origin:content-box; */
+    /* background-origin:border-box; */
+    /* background-origin:padding-box; */
+    /* background-clip:padding-box */
+    /* background-clip: content-box; */
+    background-clip: border-box;
+    overflow: auto;
+    background-attachment: local;
+
+}

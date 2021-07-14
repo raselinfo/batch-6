@@ -1,0 +1,26 @@
+.para{
+    /* color:red */
+    /* color:#10ff00; */
+    /* color:#000000 */
+    /* color:rgb(255,200,2) */
+    /* color:hsl(50, 10%, 30%); */
+    /* color:rgba(255,0,0,.5) */
+}
+/* body{
+    background:yellow;
+}
+.main__section{
+    background-color:hsla(0, 0%, 0%, 0.178);
+    height:200px;
+} */
+.main__section{
+    background-image:url("./img/bg.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    background-size:500px;
+    background-position: 1500px 0;
+}
+
+.main__section p{
+    color:#fff;
+}

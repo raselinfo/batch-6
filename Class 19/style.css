@@ -1,0 +1,46 @@
+/* p~h1{
+    color:red;
+}
+
+p~span{
+    color:green;
+} */
+
+/* p~div{
+    color:red;
+} */
+
+/* h1~p{
+    color:red;
+} */
+
+/* h1~span{
+    color:orange;
+} */
+
+/* h1+p{
+    color:red;
+} */
+
+/* p+p{
+    color: red;
+} */
+
+/* .parent>p{
+    color:orange;
+}
+.inner__div>p{
+    color:green;
+} */
+
+/* .parent p{
+    color:red;
+} */
+
+/* .parent>h1{
+    color:blue;
+} */
+
+/* .parent h1{
+    color:blue;
+} */

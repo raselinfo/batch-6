@@ -1,0 +1,66 @@
+h1{
+ /* text-decoration: underline; */
+ /* text-decoration-style:wavy */
+ /* text-decoration-style:dashed; */
+ /* text-decoration-style: dotted; */
+ /* text-decoration-style:double;
+ text-decoration:none; */
+}
+
+/* *{
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color:green;
+}
+p{
+    color:orange;
+}
+.first__class{
+    font-size:60px;
+} */
+
+/* h1{
+    color:red;
+} */
+
+/* .first__heding{
+    color:red;
+}
+.third__class{
+    font-size:100px;
+} */
+
+/* .heading{
+    color:blue;
+
+}
+.third__heading{
+    font-size:100px;
+}
+.first__class{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* #section{
+    color:red;
+}
+#section__section{
+    font-size:50px;
+} */
+
+/* [type="button"]{
+    color:red;
+}
+[type="submit"]{
+    color:green;
+} */
+
+
+[myname="rasel"]{
+    color:red;
+}
