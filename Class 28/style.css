@@ -1,27 +1,26 @@
+/* .box {
+    width              : 300px;
+    height             : 300px;
+    margin             : 150px auto; */
+    /* background-image: linear-gradient(#0BFB9C,#007AFB); */
+    /* background-image   : repeating-linear-gradient(30deg,red,green 20%, yellow 20%,blue 30%); */
+    /* background:radial-gradient(green,red,yellow,blue) */
+    /* background:repeating-radial-gradient(green 30%,red 50%,blue 20%)
+} */
 body{
-    background: rgb(104, 34, 195);
-background: linear-gradient(214deg, rgba(104, 34, 195, 0.9920343137254902) 0%, rgba(101, 253, 45, 0.9500175070028011) 100%);
+    background: rgb(241, 64, 10);
+background: linear-gradient(243deg, rgba(241, 64, 10, 0.9920343137254902) 0%, rgba(253, 45, 252, 1) 100%);
 }
-.box{
-    width:100px;
-    height:100px;
-    background: linear-gradient(#812BE8,#560DAB);
-    border-radius: 50%;
-    display: inline-block;
-}
-.container{
-    width:500px;
-    margin:400px auto;
-}
-.box:nth-child(2){
-    background:linear-gradient(#AC89F6,#7F16FE)
-}
-.box:nth-child(3){
-    background:linear-gradient(#6AD6FF,#AD6AFE)
-}.box:nth-child(4){
-    background:linear-gradient(#12F5EF,#C68EFE)
-}.box:nth-child(5){
-    background:linear-gradient(#A82D8E,#412A71)
-}.box:nth-child(6){
-    background:linear-gradient(#F354A6,#8815F6)
+button{
+    width:200px;
+    height:50px;
+    display: block;
+    margin:150px auto;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size:20px;
+    background:linear-gradient(to right,#27AEDC,#3EE09A);
+    color:#fff;
+    box-shadow: 0px 0px 23px 0px #3ee09a;
 }

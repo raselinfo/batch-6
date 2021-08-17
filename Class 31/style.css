@@ -1,0 +1,159 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Reset Code */
+img {
+    width: 100%;
+}
+
+.container {
+    width : 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(#150379, #012443);
+    width     : 100%;
+    height    : 80px;
+    color     : #fff;
+    padding   : 10px;
+    overflow  : hidden;
+}
+
+.header .phone {
+    width: 50%;
+    float: left;
+}
+
+.header .phone p {
+    font-size  : 40px;
+    font-weight: bold;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.header .social {
+    width: 50%;
+    float: left;
+}
+
+.header .social .social__inner {
+    width      : 160px;
+    margin-left: auto;
+}
+
+.header .social img {
+    width        : 40px;
+    background   : #fff;
+    height       : 40px;
+    border-radius: 50%;
+    padding      : 5px;
+    margin       : 3px;
+
+}
+
+/* Nav */
+.nav {
+    background: #FF6B6B;
+    width     : 100%;
+    height    : 80px;
+}
+
+.nav .nav__item {
+    display    : inline-block;
+    width      : 100px;
+    height     : 50px;
+    background : #df5454;
+    color      : #fff;
+    font-size  : 20px;
+    font-weight: bold;
+    font-family: 'Roboto',
+        sans-serif;
+    text-decoration: none;
+    text-align     : center;
+    line-height    : 50px;
+    text-transform : uppercase;
+    margin-top     : 13px;
+    margin-right   : 10px
+}
+/* Intro Section */
+.intro {
+    background: #FDD2BF;
+    height    : 800px;
+    width     : 100%;
+    font-family: 'Roboto',
+        sans-serif;
+
+}
+
+.intro h1 {
+    text-align : center;
+    line-height: 800px;
+    font-size  : 100px;
+    text-shadow: 2px 2px 5px #B61919;
+}
+
+/* About Section */
+.about{
+    background:#FF6B6B;
+    width:100%;
+    height:800px;
+    padding:80px 0;
+}
+.about h2{
+    font-size:80px;
+    font-family: 'Roboto',
+sans-serif;
+text-align: center;
+margin-top:100px;
+margin-bottom: 20px;
+
+}
+.about p{
+    width:700px;
+    margin:0 auto;
+        font-family: 'Roboto',
+    sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+/* service */
+.service{
+    background:#130774;
+    height:800px;
+    width:100%;
+
+}
+.service h2{
+    color:#fff;
+    font-size:80px;
+      font-family: 'Roboto',
+  sans-serif;
+  text-align: center;
+  line-height: 800px;
+}
+/* Footer */
+.footer{
+    background:#012443;
+    width:100%;
+    height:100px;
+}
+.footer p{
+    font-size:30px;
+    font-weight: bold;
+      font-family: 'Roboto',
+  sans-serif;
+  color:#fff;
+  text-align: center;
+  line-height: 100px;
+}

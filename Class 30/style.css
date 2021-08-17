@@ -1,0 +1,46 @@
+/* .box{
+    width:400px;
+    height:400px;
+    padding:5px;
+    margin:300px auto; */
+    /* border-style:ridge;
+    border-color:orange;
+    border-width:20px; */
+    /* border:20px groove orange; */
+    /* border-top:20px solid orange;
+    border-right: 20px groove green;
+    border-bottom: 20px groove rgb(128, 0, 0);
+    border-left: 20px groove rgb(250, 12, 12); */
+    /* border:10px solid red;
+    border-radius: 20px 10px 0 30px;
+} */
+
+
+/* .box{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+} */
+/* .table{
+    width:100%;
+    height:600px;
+    border-collapse:collapse
+} */
+
+
+
+.box{
+    width:400px;
+    height:400px;
+    padding:10px;
+    margin :100px auto;
+    border:20px solid red;
+    /* border-image-source: url("./img/5.jpg");
+    border-image-slice: 50;
+    border-image-repeat:round;
+    border-image-outset: 50px;
+    border-image-width:10px; */
+    /* border-image:url("./img/new.jpeg") 50/30px/50px round */
+    border-image:linear-gradient(red,orange) 30/30px/50px round;
+    border-radius: 10px;
+}
+

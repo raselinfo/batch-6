@@ -1,0 +1,19 @@
+/* .box{ */
+    /* width:400px;
+    height: 400px;
+   margin :150px auto;
+    border-radius: 50%; */
+    /* background:conic-gradient(at 20% 50%,red ,green ,yellow) */
+    /* background:repeating-conic-gradient(red 20deg,green 30deg) */
+    /* background:repeating-conic-gradient(yellow 20deg,black 30deg);
+    background-size:50px 50px; */
+    /* background:conic-gradient(
+        yellow 0deg,yellow 90deg,
+        black 90deg,black 180deg
+        ) */
+/* } */
+body{
+    background:url('./img/3.jpg')no-repeat,rgb(88, 126, 250);
+    background-size: cover;
+    background-blend-mode: multiply;
+}

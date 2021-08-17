@@ -1,0 +1,28 @@
+/* img{
+    width:100%;
+    outline:5px solid green;
+    outline-offset: -8px;
+}
+.container{
+    width:100%;
+    max-width:500px;
+    border:5px solid red;
+    margin:0 auto;
+    min-height: 500px;
+} */
+img{
+    width:600px;
+    display:block;
+    margin:100px auto;
+    outline:3px solid #fff;
+    outline-offset: -10px;
+}
+.container{
+    width:600px;
+    margin:100px auto;
+}
+p{
+    width:700px;
+    margin-left:-44px;
+    font-variant: small-caps;
+}
