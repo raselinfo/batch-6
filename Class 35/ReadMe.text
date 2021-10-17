@@ -1,0 +1,19 @@
+Link---------
+a:link
+a:active
+a:visited
+a:hover
+
+List--------
+list-style-type
+list-style-position
+list-style-image
+list-style
+
+Table--------
+border-collapse
+border-spacing
+vertical-align
+empty-cells
+table-layout
+Task :- Design Table with CSS
